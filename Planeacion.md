@@ -26,3 +26,16 @@ El proyecto se divide en las siguientes componentes, donde cada uno se correspon
 - Diseño de Planta: [Plant](https://github.com/APM-Kullu/Project/labels/Plant)
 - SCADA - Industria 4.0: [SCADA](https://github.com/APM-Kullu/Project/labels/SCADA)
 
+## Responsables
+
+### Componentes de proyecto
+- Camilo: Planeación y Cronograma (EDT + Diagrama de Gantt)
+- Julian: Análisis de costos, matriz comunicaciones
+- Sebastian: Adquisiciones, FOB de maquinas + impuestos + Aduanas + etc
+- Juan: Modelo de negocio, empresa, rentabilidad
+
+### Componentes técnicos
+- Juan: SCADA + Indicadores
+- Julian: RobotStudio + Web
+- Camilo: PLC + COM
+- Santiago: Planta + NX
