@@ -4,7 +4,7 @@ Para la organización del proyecto se utiliza la herramienta de GitHub Projects,
 
 El proyecto esta disponible en este [enlace](https://github.com/orgs/APM-Kullu/projects/1).
 
-## Metodología
+## Metodología - OBSOLETA
 
 Debido a las características del proyecto en donde los conocimientos requeridos serán adquiridos durante el desarrollo, se plantea una serie de componentes generales, que serán desglosados en tareas especificas a medida que se avance en el proyecto y se comprenda mejor el alcance de cada componente, asignando cada tarea a un item especifico dentro de Github Projects, donde se definirá un responsable y un plazo de desarrollo. Esto estará acompañado con dos reuniones semanales los días Miércoles y Domingos, donde se discutirán los avances del proyecto y se crearan las tareas que se consideren pertinentes al corto plazo e igualmente se asignaran aquellas que previamente se hallan asignado.
 
@@ -17,21 +17,84 @@ De esta manera la metodología planteada no propone un cronograma a largo plazo,
 El proyecto se divide en las siguientes componentes, donde cada uno se corresponde  con una etiqueta en GitHub Projects:
 
 - Gestión de Proyecto: [Project](https://github.com/APM-Kullu/Project/labels/Project)
-- Indicadores de desempeño: [Indicators](https://github.com/APM-Kullu/Project/labels/Indicators)
-- Celda robotizada: [Robotics](https://github.com/APM-Kullu/Project/labels/Robotics)
-- Digital Factory: [NX](https://github.com/APM-Kullu/Project/labels/NX)
-- PLC: [PLC](https://github.com/APM-Kullu/Project/labels/PLC)
-- Comunicaciones: [Comms](https://github.com/APM-Kullu/Project/labels/Comms)
 - CAD: [CAD](https://github.com/APM-Kullu/Project/labels/CAD)
 - Diseño de Planta: [Plant](https://github.com/APM-Kullu/Project/labels/Plant)
+- Indicadores de desempeño: [Indicators](https://github.com/APM-Kullu/Project/labels/Indicators)
+- Celda robotizada: [Robotics](https://github.com/APM-Kullu/Project/labels/Robotics)
+- Digital Factory: [DigiFac](https://github.com/APM-Kullu/Project/labels/DigiFac)
+- PLC: [PLC](https://github.com/APM-Kullu/Project/labels/PLC)
+- Comunicaciones: [Comms](https://github.com/APM-Kullu/Project/labels/Comms)
 - SCADA - Industria 4.0: [SCADA](https://github.com/APM-Kullu/Project/labels/SCADA)
+
+
+## EDT
+
+### Definiciones
+- Diseño global de planta: Se refiere a la selección de procesos y maquinas que contiene la planta de manufactura, incluyendo la interacción entre ellos, sin tener en cuenta los detalles de diseño de cada uno de ellos, como el control, sensores, etc.
+- SyA: Sensores y Actuadores.
+- Tecnomatix: Software para simulación de diseño global de planta de manufactura.
+- Ignition: Software para implementación de sistemas SCADA.
+- Diseño de la red de simulación: Se refiere a la planeación de como se comunicaran los diferentes elementos involucrados en la simulación de los procesos que se automatizaran, incluyendo el diseño de la Red, la preparación de dispositivos requeridos, asi como la configuración del software de comunicaciones.
+
+<table>
+  <thead>
+    <tr>
+      <th>Código</th>
+      <th>Descripción</th>
+      <th>Responsable</th>
+      <th>Etiqueta</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr> <td>1    </td><td>Gestión de Proyecto                             </td><td>        </td><td>          </td></tr>
+    <tr> <td>1.1  </td><td>Planeación                                      </td><td>        </td><td>          </td></tr>
+    <tr> <td>1.1.1</td><td>EDT                                             </td><td>Camilo  </td><td>Project   </td></tr>
+    <tr> <td>1.1.2</td><td>Diagrama de Gantt                               </td><td>Camilo  </td><td>Project   </td></tr>
+    <tr> <td>1.1.3</td><td>Estimación de costos de proyecto                </td><td>Julian  </td><td>Project   </td></tr>
+    <tr> <td>1.3  </td><td>Indagación de indicadores de desempeño          </td><td>Juan    </td><td>Indicators</td></tr>
+    <tr> <td>1.4  </td><td>Análisis económico de proyecto                  </td><td>Juan    </td><td>Indicators</td></tr>
+    <tr> <td>1.5  </td><td>Marca                                           </td><td>Juan    </td><td>Project   </td></tr>
+    <tr> <td>1.6  </td><td>Web de proyecto                                 </td><td>Julian  </td><td>Project   </td></tr>
+    <tr> <td>2    </td><td>Pre-proyecto                                    </td><td>        </td><td>          </td></tr>
+    <tr> <td>2.1  </td><td>Diseño CAD de los productos                     </td><td>        </td><td>          </td></tr>
+    <tr> <td>2.1.1</td><td>Taburete                                        </td><td>Camilo  </td><td>CAD       </td></tr>
+    <tr> <td>2.1.2</td><td>Soporte de Vinos                                </td><td>Julian  </td><td>CAD       </td></tr>
+    <tr> <td>2.1.3</td><td>Base de Portátil                                </td><td>Juan    </td><td>CAD       </td></tr>
+    <tr> <td>2.2  </td><td>Diseño global de planta no automatizada         </td><td>        </td><td>          </td></tr>
+    <tr> <td>2.2.1</td><td>Desglose de etapas del proceso                  </td><td>Santiago</td><td>Plant     </td></tr>
+    <tr> <td>2.2.2</td><td>Análisis de costos de equipos                   </td><td>Santiago</td><td>Plant     </td></tr>
+    <tr> <td>2.2.3</td><td>Implementación en Tecnomatix                    </td><td>Santiago</td><td>Plant     </td></tr>
+    <tr> <td>2.2.4</td><td>Extracción de indicadores de desempeño          </td><td>Juan    </td><td>Indicators</td></tr>
+    <tr> <td>3    </td><td>Diseño de propuesta de automatización           </td><td>        </td><td>          </td></tr>
+    <tr> <td>3.1  </td><td>Diseño global de planta automatizada            </td><td>        </td><td>          </td></tr>
+    <tr> <td>3.1.1</td><td>Selección de métodos y procesos                 </td><td>Santiago</td><td>Plant     </td></tr>
+    <tr> <td>3.1.2</td><td>Análisis de costos de equipos                   </td><td>Santiago</td><td>Plant     </td></tr>
+    <tr> <td>3.1.3</td><td>Implementación en Tecnomatix                    </td><td>Santiago</td><td>Plant     </td></tr>
+    <tr> <td>3.1.4</td><td>Extracción de indicadores de desempeño          </td><td>Juan    </td><td>Indicators</td></tr>
+    <tr> <td>3.2  </td><td>Diseño de la red de simulación                  </td><td>Camilo  </td><td>Comms     </td></tr>
+    <tr> <td>3.3  </td><td>Celda Robotizada                                </td><td>        </td><td>          </td></tr>
+    <tr> <td>3.3.1</td><td>Diseño de celda incluyendo SyA                  </td><td>Julian  </td><td>Robotics  </td></tr>
+    <tr> <td>3.3.2</td><td>Calculo e implementación de trayectorias        </td><td>Julian  </td><td>Robotics  </td></tr>
+    <tr> <td>3.3.2</td><td>Configuración OPC para celda roborizada         </td><td>Juan    </td><td>Comms     </td></tr>
+    <tr> <td>3.3.2</td><td>Configuración de Ignition para celda robotizada </td><td>Juan    </td><td>SCADA     </td></tr>
+    <tr> <td>3.4  </td><td>Digital Factory                                 </td><td>        </td><td>          </td></tr>
+    <tr> <td>3.4.1</td><td>Diseño de gemelos digitales (Modelo + SyA)      </td><td>Santiago</td><td>DigiFac   </td></tr>
+    <tr> <td>3.4.2</td><td>Diseño y calculo de trayectorias                </td><td>Santiago</td><td>DigiFac   </td></tr>
+    <tr> <td>3.4.3</td><td>Configuración OPC para gemelos digitales        </td><td>Juan    </td><td>Comms     </td></tr>
+    <tr> <td>3.4.4</td><td>Configuración de Ignition para gemelos digitales</td><td>Juan    </td><td>SCADA     </td></tr>
+    <tr> <td>3.5  </td><td>PLC                                             </td><td>        </td><td>          </td></tr>
+    <tr> <td>3.5.1</td><td>GRAFCET                                         </td><td>Camilo  </td><td>PLC       </td></tr>
+    <tr> <td>3.5.2</td><td>Implementación en Ladder                        </td><td>Camilo  </td><td>PLC       </td></tr>
+    <tr> <td>3.5.3</td><td>Configuración OPC para simulador de PLC         </td><td>Camilo  </td><td>PLC       </td></tr>
+  </tbody>
+</table>
 
 ## Responsables
 
 ### Componentes de proyecto
 - Camilo: Planeación y Cronograma (EDT + Diagrama de Gantt)
 - Julian: Análisis de costos, matriz comunicaciones
-- Sebastian: Adquisiciones, FOB de maquinas + impuestos + Aduanas + etc
+- Santiago: Adquisiciones, FOB de maquinas + impuestos + Aduanas + etc
 - Juan: Modelo de negocio, empresa, rentabilidad
 
 ### Componentes técnicos
