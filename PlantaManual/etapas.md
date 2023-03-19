@@ -17,7 +17,9 @@ El proceso de suministro de paquetes de láminas de MDF mediante un montacargas 
 
 5. Transporte de las láminas: una vez que se han verificado los paquetes de láminas de MDF, se procede a transportarlas al área de producción. Esto puede implicar el uso de carretillas elevadoras o equipos de transporte especializados.
 
-Cabe resaltar que el proceso anterior lo realiza un mismo operario y pasa las láminas por un buffer o cinta transportadora, para la siguiente etapa
+6. Las láminas comerciales son muy grandes para entrar en la máquina de corte laser, por lo que estas se deben cortar en 4 partes con una sierra de mesa por parte del operario del área.
+
+Cabe resaltar que el proceso anterior lo realiza un mismo operario y pasa las láminas ya cortadas por un buffer o cinta transportadora, para la siguiente etapa
 
 ## 2. Corte láser
 
