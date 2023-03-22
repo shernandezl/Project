@@ -38,22 +38,22 @@ Después de separar las piezas, se realiza el fresado. Este proceso implica dar 
 
 ## 4. Taladrado
 
-El siguiente paso es el taladrado. Este proceso implica hacer agujeros en las piezas según las especificaciones de diseño. El taladrado se realiza con una máquina taladradora de banco y con una máquina taladradora con sierra de copa, dependendo de los requerimientos de cada pieza. Luego el operario pasa las piezas por una banda transportadora para el sellado por aerosol. En este paso el operario debe usar un compresor para limpiar la pieza de biruta
+El siguiente paso es el taladrado. Este proceso implica hacer agujeros en las piezas según las especificaciones de diseño. El taladrado se realiza con una máquina taladradora de banco y con una máquina taladradora con sierra de copa, dependiendo de los requerimientos de cada pieza. Luego el operario pasa las piezas por una banda transportadora para el sellado por aerosol. En este paso el operario debe usar un compresor para limpiar la pieza de viruta
 
 ## 5. Sellado por aerosol
 
-Una vez que se han cortado, separado, fresado y taladrado las piezas de MDF, se procede al sellado por aerosol. Este proceso implica aplicar una capa de sellador de aerosol sobre las piezas. El sellador ayuda a proteger la superficie de la pieza. Esta estación es operada por un operario que pone a secar las piezas en un almacen por un promedio de 4 horas, para asegurar que el sellante quede bien aplicado.
+Una vez que se han cortado, separado, fresado y taladrado las piezas de MDF, se procede al sellado por aerosol. Este proceso implica aplicar una capa de sellador de aerosol sobre las piezas. El sellador ayuda a proteger la superficie de la pieza. Esta estación es operada por un operario que pone a secar las piezas en un almacén por un promedio de 4 horas, para asegurar que el sellante quede bien aplicado.
 
 ## 6. Ensamble
 
-El siguiente paso es el ensamblaje de las piezas. Este proceso implica unir las diferentes piezas según el diseño, para esto, un operario las separa por el tipo de producto (Estantería, taburete y base) y entre 2 o 3 operarios (Dependiendo del volumen de producción), se realiza en ensambla del producto por medio de tornillería. 
+El siguiente paso es el ensamblaje de las piezas. Este proceso implica unir las diferentes piezas según el diseño, para esto, un operario las separa por el tipo de producto (Estantería, taburete y base) y entre 2 o 3 operarios (Dependiendo del volumen de producción), se realiza en ensambla del producto por medio de tornillería.
 
 ## 7. Lacado
 
 Después del ensamblaje, se procede al lacado de las piezas. Este proceso implica aplicar una capa de laca sobre las piezas. La laca ayuda a proteger la superficie de la pieza y a darle un acabado suave y brillante. El lacado se realiza con una pistola de pintura y puede requerir varias capas, dependiendo del diseño y del acabado deseado.
 
-## 8. Almacenado
+## 8. Almacenaje
 
 Una vez que se han lacado todas las piezas, se procede al almacenamiento.
-Primero se almacenan en un almacen de secado, donde las piezas deben permanecer un  tiempo estipulado, para asegurar que el lacado se fijó correctamente, luego se almacenan en un almacen de despacho, donde se surten a los transportistas para la entrega al cliente final.
+Primero se almacenan en un almacén de secado, donde las piezas deben permanecer un  tiempo estipulado, para asegurar que el lacado se fijó correctamente, luego se almacenan en un almacén de despacho, donde se surten a los transportistas para la entrega al cliente final.
 El almacenamiento adecuado ayuda a proteger las piezas de la humedad y del polvo, lo que puede dañar la superficie.
