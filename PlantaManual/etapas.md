@@ -66,3 +66,8 @@ Después del ensamblaje, se procede al lacado de las piezas. Este proceso implic
 Una vez que se han lacado todas las piezas, se procede al almacenamiento.
 Primero se almacenan en un almacén de secado, donde las piezas deben permanecer un  tiempo estipulado, para asegurar que el lacado se fijó correctamente, luego se almacenan en un almacén de despacho, donde se surten a los transportistas para la entrega al cliente final.
 El almacenamiento adecuado ayuda a proteger las piezas de la humedad y del polvo, lo que puede dañar la superficie.
+
+
+# Diagrama del proceso
+
+![Diagrama de planta no automatiza](./../images/diag_Planta1.png)
